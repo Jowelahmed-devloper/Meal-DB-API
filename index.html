@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Finder</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <main class="main-content">
+            <div class="col-md-6 mx-auto mt-5">
+                <h1 class="text-center mb-4">Search your Favorite Food</h1>
+                <div class="search-box">
+                    <input id="food-input" type="text" class="form-control" placeholder="Enter your Favorite Food">
+                    <button onclick="getFoods()" class="btn btn-success search-btn">Search</button>
+                </div>
+            </div>
+            <!-- Single Food Show -->
+            <div class="text-center">
+
+            </div>
+            <!-- Display Search Result -->
+            <div class="mt-5">
+                <div class="row text-center" id="foods-container">
+                    <!-- <div id="food-containers"> -->
+                        <!-- <div class="col-md-4">
+                            <h2>Food Name:1</h2>
+                            <img class="food-img" src="food.jpg" alt="">
+                            <button class="btn btn-success">Get Recipe</button>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Food Name:1</h2>
+                            <img class="food-img" src="food.jpg" alt="">
+                            <button class="btn btn-success">Get Recipe</button>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Food Name:1</h2>
+                            <img class="food-img" src="food.jpg" alt="">
+                            <button class="btn btn-success food-btn">Get Recipe</button>
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <!-- First Jquery then Popper js and the Bootstrap Min js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
